@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Site de Julien Barbier{% endblock %}
+
+{% block body %}
+<div class="container mt-4">
+  <div class="row">
+    <div class="card-transparent border-primary mx-auto" style="max-width: 60rem;">
+      <div class="card-body">
+        <h3 class="card-title">Qui suis-je ?</h3>
+        <p class="card-text">Je m'appelle <strong>Julien Barbier</strong> et suis actuellement scolarisé en premiere année de Réseau et telecoms à l'IUT de Roanne.</p>
+        <p class="card-text">Je suis grandement passionné par l'informatique, plus particulièrement dans le domaine de l'IT et de la gestion/mise en place de réseaux que je maitrise déja grandement. 
+        <br>Mais grâce a ma formation je sais aussis faire de la :</p>
+        <ul>
+          <li>Création d'application</li> 
+          <li>Création de site web</li>
+          <li>Création de scripts</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card-transparent border-primary mx-auto" style="max-width: 20rem;">
+      <div class="card-body">
+        <img src="images/julien.png" alt="Julien Barbier" class="img-fluid rounded mx-auto">
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="row">
+    <div class="card-transparent border-primary mx-auto" style="max-width: 60rem;">
+      <div class="card-body text-center">
+        <h3 class="card-title"><strong> Quelques informations</strong></h3>
+        <p class="card-text">
+          <p>Age : <strong>18 ans</strong>
+          <p>Adresse : <strong>41 rue Emile Noirot, 42300, Roanne</strong>
+          <p>Mail :<a href="mailto:julien.barbier@skiff.com"> <strong>julien.barbier@skiff.com</strong></a></p>
+          <p>Telephone : <strong>07 86 76 68 91</strong>
+          <p>Permis B : <strong>Oui</strong>
+          <br>
+        <a href="/about" class="btn btn-lg btn-dark btn-primary" role="button" aria-pressed="true">Pour en savoir plus...</a>
+      </div>
+    </div>
+{% endblock %}
+
