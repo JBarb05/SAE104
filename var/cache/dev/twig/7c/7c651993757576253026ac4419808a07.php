@@ -77,6 +77,6 @@ class __TwigTemplate_599cfec50dbf6402782e4e33f4c31f85 extends Template
     <line x1=\"3\" y1=\"19\" x2=\"21\" y2=\"19\" />
     <rect x=\"5\" y=\"6\" width=\"14\" height=\"10\" rx=\"1\" />
 </svg>
-", "@WebProfiler/Icon/settings-theme-system.svg", "C:\\Users\\jujue\\Documents\\UNIV\\sae104\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Icon\\settings-theme-system.svg");
+", "@WebProfiler/Icon/settings-theme-system.svg", "C:\\Users\\jujue\\Documents\\UNIV\\SAE104\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Icon\\settings-theme-system.svg");
     }
 }

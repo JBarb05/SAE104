@@ -79,6 +79,6 @@ class __TwigTemplate_6d06b51ef3f198120a37517f90c0e8ac extends Template
     <polyline points=\"3 7 12 13 21 7\"></polyline>
 </svg>
 
-", "@WebProfiler/Icon/mailer.svg", "C:\\Users\\jujue\\Documents\\UNIV\\sae104\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Icon\\mailer.svg");
+", "@WebProfiler/Icon/mailer.svg", "C:\\Users\\jujue\\Documents\\UNIV\\SAE104\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Icon\\mailer.svg");
     }
 }

@@ -85,21 +85,48 @@ class __TwigTemplate_d622e59e07b2944a197d030fd1c8b122 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
-        echo "<h3>Progress bars</h3>
+        echo "  <div class=\"container mt-4\">
+    <div class=\"row text-center\">
+      <h3>Mon Portfolio de Compétences</h3>
+    </div>
+    <div class=\"row\">
+      <div class=\"btn-group text-center justify-content-center\" role=\"group\" style=\"height: 20rem;\">
+        <a href=\"/portfolio/connecter\" class=\"btn btn-secondary btn-dark\">Connecter</a>
+        <a href=\"/portfolio/administrer\" class=\"btn btn-secondary btn-dark\">Administrer</a>
+        <a href=\"/portfolio/programmer\" class=\"btn btn-secondary btn-dark\">Programmer</a>
+      </div>
+    </div>
 
-<div class=\"bs-component\">
-    <div class=\"progress\">
-  <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 25%;\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
-</div>
-<div class=\"progress\">
-  <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 50%;\" aria-valuenow=\"50\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
-</div>
-<div class=\"progress\">
-  <div class=\"progress-bar bg-warning\" role=\"progressbar\" style=\"width: 75%;\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
-</div>
-<div class=\"progress\">
-  <div class=\"progress-bar bg-danger\" role=\"progressbar\" style=\"width: 100%;\" aria-valuenow=\"100\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
-</div>
+
+    <!--a href=\"/cv\"
+      <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 20rem;\">
+        <div class=\"card-body\">
+          <img src=\"images/julien.png\" alt=\"Julien Barbier\" class=\"img-fluid rounded mx-auto\">
+        </div>
+        </a-->
+
+
+        <!--div class=\"bs-component\">
+          <div class=\"progress\"> 
+            <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 25%;\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
+          </div>
+          <br>
+          <div class=\"progress\">
+            <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 50%;\" aria-valuenow=\"50\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
+          </div>
+          <div class=\"progress\">
+            <div class=\"progress-bar bg-warning\" role=\"progressbar\" style=\"width: 75%;\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
+          </div>
+          <div class=\"progress\">
+            <div class=\"progress-bar bg-danger\" role=\"progressbar\" style=\"width: 100%;\" aria-valuenow=\"100\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
+          </div>
+          <div class=\"progress\">
+            <div class=\"progress-bar bg-danger\" role=\"progressbar\" style=\"width: 100%;\" aria-valuenow=\"100\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div-->
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -138,23 +165,48 @@ class __TwigTemplate_d622e59e07b2944a197d030fd1c8b122 extends Template
         return new Source("{% extends 'base.html.twig' %}
 {% block title %}Mes Compétences{% endblock %}
 {% block body %}
-<h3>Progress bars</h3>
+  <div class=\"container mt-4\">
+    <div class=\"row text-center\">
+      <h3>Mon Portfolio de Compétences</h3>
+    </div>
+    <div class=\"row\">
+      <div class=\"btn-group text-center justify-content-center\" role=\"group\" style=\"height: 20rem;\">
+        <a href=\"/portfolio/connecter\" class=\"btn btn-secondary btn-dark\">Connecter</a>
+        <a href=\"/portfolio/administrer\" class=\"btn btn-secondary btn-dark\">Administrer</a>
+        <a href=\"/portfolio/programmer\" class=\"btn btn-secondary btn-dark\">Programmer</a>
+      </div>
+    </div>
 
-<div class=\"bs-component\">
-    <div class=\"progress\">
-  <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 25%;\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
-</div>
-<div class=\"progress\">
-  <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 50%;\" aria-valuenow=\"50\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
-</div>
-<div class=\"progress\">
-  <div class=\"progress-bar bg-warning\" role=\"progressbar\" style=\"width: 75%;\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
-</div>
-<div class=\"progress\">
-  <div class=\"progress-bar bg-danger\" role=\"progressbar\" style=\"width: 100%;\" aria-valuenow=\"100\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
-</div>
-{% endblock %}
 
-", "jbarbier/portfolio.html.twig", "C:\\Users\\jujue\\Documents\\UNIV\\sae104\\templates\\jbarbier\\portfolio.html.twig");
+    <!--a href=\"/cv\"
+      <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 20rem;\">
+        <div class=\"card-body\">
+          <img src=\"images/julien.png\" alt=\"Julien Barbier\" class=\"img-fluid rounded mx-auto\">
+        </div>
+        </a-->
+
+
+        <!--div class=\"bs-component\">
+          <div class=\"progress\"> 
+            <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 25%;\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
+          </div>
+          <br>
+          <div class=\"progress\">
+            <div class=\"progress-bar bg-info\" role=\"progressbar\" style=\"width: 50%;\" aria-valuenow=\"50\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
+          </div>
+          <div class=\"progress\">
+            <div class=\"progress-bar bg-warning\" role=\"progressbar\" style=\"width: 75%;\" aria-valuenow=\"75\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
+          </div>
+          <div class=\"progress\">
+            <div class=\"progress-bar bg-danger\" role=\"progressbar\" style=\"width: 100%;\" aria-valuenow=\"100\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
+          </div>
+          <div class=\"progress\">
+            <div class=\"progress-bar bg-danger\" role=\"progressbar\" style=\"width: 100%;\" aria-valuenow=\"100\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div-->
+{% endblock %}", "jbarbier/portfolio.html.twig", "C:\\Users\\jujue\\Documents\\UNIV\\SAE104\\templates\\jbarbier\\portfolio.html.twig");
     }
 }

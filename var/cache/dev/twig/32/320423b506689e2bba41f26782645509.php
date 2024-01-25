@@ -83,6 +83,6 @@ class __TwigTemplate_ff64c9baf4b6945264cfbb452f49e44f extends Template
     <path d=\"M6 15l-3 3l3 3\" />
     <path d=\"M18 15l3 3l-3 3\" />
 </svg>
-", "@WebProfiler/Icon/settings-width-fitted.svg", "C:\\Users\\jujue\\Documents\\UNIV\\sae104\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Icon\\settings-width-fitted.svg");
+", "@WebProfiler/Icon/settings-width-fitted.svg", "C:\\Users\\jujue\\Documents\\UNIV\\SAE104\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Icon\\settings-width-fitted.svg");
     }
 }
