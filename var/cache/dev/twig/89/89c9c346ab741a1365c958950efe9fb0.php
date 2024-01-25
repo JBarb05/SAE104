@@ -89,8 +89,8 @@ class __TwigTemplate_d622e59e07b2944a197d030fd1c8b122 extends Template
     <div class=\"row text-center\">
       <h3>Mon Portfolio de Compétences</h3>
     </div>
-    <div class=\"row\">
-      <div class=\"btn-group text-center justify-content-center\" role=\"group\" style=\"height: 20rem;\">
+    <div class=\"row align-middle\">
+      <div class=\"btn-group\" role=\"group\">
         <a href=\"/portfolio/connecter\" class=\"btn btn-secondary btn-dark\">Connecter</a>
         <a href=\"/portfolio/administrer\" class=\"btn btn-secondary btn-dark\">Administrer</a>
         <a href=\"/portfolio/programmer\" class=\"btn btn-secondary btn-dark\">Programmer</a>
@@ -169,8 +169,8 @@ class __TwigTemplate_d622e59e07b2944a197d030fd1c8b122 extends Template
     <div class=\"row text-center\">
       <h3>Mon Portfolio de Compétences</h3>
     </div>
-    <div class=\"row\">
-      <div class=\"btn-group text-center justify-content-center\" role=\"group\" style=\"height: 20rem;\">
+    <div class=\"row align-middle\">
+      <div class=\"btn-group\" role=\"group\">
         <a href=\"/portfolio/connecter\" class=\"btn btn-secondary btn-dark\">Connecter</a>
         <a href=\"/portfolio/administrer\" class=\"btn btn-secondary btn-dark\">Administrer</a>
         <a href=\"/portfolio/programmer\" class=\"btn btn-secondary btn-dark\">Programmer</a>
