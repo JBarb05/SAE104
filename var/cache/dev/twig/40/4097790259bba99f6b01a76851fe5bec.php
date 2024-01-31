@@ -45,64 +45,64 @@ class __TwigTemplate_01eb40a8dcb49e3e040fea28489d1c02 extends Template
         // line 1
         echo "<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset=\"UTF-8\">
-    <title>";
+<head>
+  <meta charset=\"UTF-8\">
+  <title>";
         // line 5
         $this->displayBlock('title', $context, $blocks);
         echo "</title>
-    <link rel=\"stylesheet\" href=\"https://bootswatch.com/5/morph/bootstrap.min.css\" id=\"bootstrap-css\">
-  </head>
-
-  <body>
-    <nav class=\"navbar navbar-expand-lg bg-dark\" data-bs-theme=\"dark\">
-      <div class=\"container-fluid\">
-        <a class=\"navbar-brand\" href=\"/\">Accueil </a>
-        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor02\" aria-controls=\"navbarColor02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-          <span class=\"navbar-toggler-icon\"></span>
-        </button>
-        <div class=\"collapse navbar-collapse\" id=\"navbarColor02\">
-          <ul class=\"navbar-nav me-auto\">
-            <li class=\"nav-item\">
-              <a class=\"nav-link active\" href=\"/about\">A propos
-                <span class=\"visually-hidden\">(current)</span>
-              </a>
-            </li> 
-            <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"/portfolio\">Portfolio</a>
-            </li>
-            <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"/cv\">CV</a>
-            </li>
-          </ul>
-        </div>
+  <link rel=\"stylesheet\" href=\"https://bootswatch.com/5/morph/bootstrap.min.css\" id=\"bootstrap-css\">
+</head>
+<body>
+  <nav class=\"navbar navbar-expand-lg bg-dark\" data-bs-theme=\"dark\">
+    <div class=\"container-fluid\">
+      <a class=\"navbar-brand\" href=\"/\">Accueil </a>
+      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor02\" aria-controls=\"navbarColor02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+        <span class=\"navbar-toggler-icon\"></span>
+      </button>
+      <div class=\"collapse navbar-collapse\" id=\"navbarColor02\">
+        <ul class=\"navbar-nav me-auto\">
+          <li class=\"nav-item\">
+            <a class=\"nav-link active\" href=\"/about\">A propos
+              <span class=\"visually-hidden\">(current)</span>
+            </a>
+          </li> 
+          <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"/portfolio\">Portfolio</a>
+          </li>
+          <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"/cv\">CV</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <div class=\"bg-img \" style=\"background-image: url('images/iut.png'); background-size: 300px; background-position: center; background-repeat: no-repeat;\">
+  <div class=\"bg-img \" style=\"background-image: url('images/iut.png'); background-size: 300px; background-position: center; background-repeat: no-repeat;\">
     ";
-        // line 35
+        // line 34
         $this->displayBlock('body', $context, $blocks);
-        // line 36
-        echo "
-    <footer>
-        <p xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dct=\"http://purl.org/dc/terms/\">
-        <span property=\"dct:title\">This Website</span> by <span property=\"cc:attributionName\">Julien Barbier</span> is licensed under 
-        <a href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1\" target=\"_blank\" rel=\"license noopener noreferrer\" style=\"display:inline-block;\">
-          CC BY-NC-ND 4.0
-          <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1\">
-          <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1\">
-          <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1\">
-          <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1\">
-        </a>
-      </p>
-    </footer>
+        // line 35
+        echo "  </div>
 
-    ";
+  <footer>
+    <p xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dct=\"http://purl.org/dc/terms/\">
+      <span property=\"dct:title\">This Website</span> by <span property=\"cc:attributionName\">Julien Barbier</span> is licensed under 
+      <a href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1\" target=\"_blank\" rel=\"license noopener noreferrer\" style=\"display:inline-block;\">
+        CC BY-NC-ND 4.0
+        <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1\">
+        <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1\">
+        <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1\">
+        <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1\">
+      </a>
+    </p>
+  </footer>
+
+  ";
         // line 50
         $this->displayBlock('javascripts', $context, $blocks);
         // line 51
-        echo "  </body>
+        echo "</body>
 </html>
 ";
         
@@ -132,7 +132,7 @@ class __TwigTemplate_01eb40a8dcb49e3e040fea28489d1c02 extends Template
 
     }
 
-    // line 35
+    // line 34
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -181,62 +181,62 @@ class __TwigTemplate_01eb40a8dcb49e3e040fea28489d1c02 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  154 => 50,  136 => 35,  117 => 5,  105 => 51,  103 => 50,  87 => 36,  85 => 35,  52 => 5,  46 => 1,);
+        return array (  154 => 50,  136 => 34,  117 => 5,  105 => 51,  103 => 50,  86 => 35,  84 => 34,  52 => 5,  46 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset=\"UTF-8\">
-    <title>{% block title %}base{% endblock %}</title>
-    <link rel=\"stylesheet\" href=\"https://bootswatch.com/5/morph/bootstrap.min.css\" id=\"bootstrap-css\">
-  </head>
-
-  <body>
-    <nav class=\"navbar navbar-expand-lg bg-dark\" data-bs-theme=\"dark\">
-      <div class=\"container-fluid\">
-        <a class=\"navbar-brand\" href=\"/\">Accueil </a>
-        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor02\" aria-controls=\"navbarColor02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-          <span class=\"navbar-toggler-icon\"></span>
-        </button>
-        <div class=\"collapse navbar-collapse\" id=\"navbarColor02\">
-          <ul class=\"navbar-nav me-auto\">
-            <li class=\"nav-item\">
-              <a class=\"nav-link active\" href=\"/about\">A propos
-                <span class=\"visually-hidden\">(current)</span>
-              </a>
-            </li> 
-            <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"/portfolio\">Portfolio</a>
-            </li>
-            <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"/cv\">CV</a>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset=\"UTF-8\">
+  <title>{% block title %}base{% endblock %}</title>
+  <link rel=\"stylesheet\" href=\"https://bootswatch.com/5/morph/bootstrap.min.css\" id=\"bootstrap-css\">
+</head>
+<body>
+  <nav class=\"navbar navbar-expand-lg bg-dark\" data-bs-theme=\"dark\">
+    <div class=\"container-fluid\">
+      <a class=\"navbar-brand\" href=\"/\">Accueil </a>
+      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor02\" aria-controls=\"navbarColor02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+        <span class=\"navbar-toggler-icon\"></span>
+      </button>
+      <div class=\"collapse navbar-collapse\" id=\"navbarColor02\">
+        <ul class=\"navbar-nav me-auto\">
+          <li class=\"nav-item\">
+            <a class=\"nav-link active\" href=\"/about\">A propos
+              <span class=\"visually-hidden\">(current)</span>
+            </a>
+          </li> 
+          <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"/portfolio\">Portfolio</a>
+          </li>
+          <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"/cv\">CV</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <div class=\"bg-img \" style=\"background-image: url('images/iut.png'); background-size: 300px; background-position: center; background-repeat: no-repeat;\">
+  <div class=\"bg-img \" style=\"background-image: url('images/iut.png'); background-size: 300px; background-position: center; background-repeat: no-repeat;\">
     {% block body %}{% endblock %}
+  </div>
 
-    <footer>
-        <p xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dct=\"http://purl.org/dc/terms/\">
-        <span property=\"dct:title\">This Website</span> by <span property=\"cc:attributionName\">Julien Barbier</span> is licensed under 
-        <a href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1\" target=\"_blank\" rel=\"license noopener noreferrer\" style=\"display:inline-block;\">
-          CC BY-NC-ND 4.0
-          <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1\">
-          <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1\">
-          <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1\">
-          <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1\">
-        </a>
-      </p>
-    </footer>
+  <footer>
+    <p xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dct=\"http://purl.org/dc/terms/\">
+      <span property=\"dct:title\">This Website</span> by <span property=\"cc:attributionName\">Julien Barbier</span> is licensed under 
+      <a href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1\" target=\"_blank\" rel=\"license noopener noreferrer\" style=\"display:inline-block;\">
+        CC BY-NC-ND 4.0
+        <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1\">
+        <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1\">
+        <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1\">
+        <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1\">
+      </a>
+    </p>
+  </footer>
 
-    {% block javascripts %}{% endblock %}
-  </body>
+  {% block javascripts %}{% endblock %}
+</body>
 </html>
 ", "base.html.twig", "C:\\Users\\jujue\\Documents\\UNIV\\SAE104\\templates\\base.html.twig");
     }

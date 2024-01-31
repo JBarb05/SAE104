@@ -43,7 +43,7 @@ class JbarbierController extends AbstractController
         ]);
     }
 
-    #[Route('/portfolio/connecter', name: 'portfolioconnecter')]
+    #[Route('/portfolioconnecter', name: 'portfolioconnecter')]
     public function portfolioconnecter(): Response
     {
         return $this->render('jbarbier/portfolioconnecter.html.twig', [
@@ -51,7 +51,7 @@ class JbarbierController extends AbstractController
         ]);
     }
 
-    #[Route('/portfolio/programmer', name: 'portfolioprogrammer')]
+    #[Route('/portfolioprogrammer', name: 'portfolioprogrammer')]
     public function portfolioprogrammer(): Response
     {
         return $this->render('jbarbier/portfolioprogrammer.html.twig', [
@@ -59,7 +59,7 @@ class JbarbierController extends AbstractController
         ]);
     }
 
-    #[Route('/portfolio/administrer', name: 'portfolioadministrer')]
+    #[Route('/portfolioadministrer', name: 'portfolioadministrer')]
     public function portfolioadministrer(): Response
     {
         return $this->render('jbarbier/portfolioadministrer.html.twig', [

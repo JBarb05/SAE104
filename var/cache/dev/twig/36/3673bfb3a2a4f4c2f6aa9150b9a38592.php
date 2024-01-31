@@ -55,7 +55,7 @@ class __TwigTemplate_ba3032da079a1c95479b47bcb8d39acd extends Template
 
     }
 
-    // line 3
+    // line 2
     public function block_title($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -74,7 +74,7 @@ class __TwigTemplate_ba3032da079a1c95479b47bcb8d39acd extends Template
 
     }
 
-    // line 5
+    // line 3
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -84,7 +84,7 @@ class __TwigTemplate_ba3032da079a1c95479b47bcb8d39acd extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 6
+        // line 4
         echo "  <div class=\"container mt-4\">
     <div class=\"row\">
       <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
@@ -190,15 +190,13 @@ class __TwigTemplate_ba3032da079a1c95479b47bcb8d39acd extends Template
      */
     public function getDebugInfo()
     {
-        return array (  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  88 => 4,  78 => 3,  59 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
-
 {% block title %}A propos de moi{% endblock %}
-
 {% block body %}
   <div class=\"container mt-4\">
     <div class=\"row\">

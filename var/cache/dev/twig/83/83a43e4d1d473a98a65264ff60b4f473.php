@@ -55,7 +55,7 @@ class __TwigTemplate_392529e86c44929d89c04e4e030f9b9f extends Template
 
     }
 
-    // line 3
+    // line 2
     public function block_title($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -65,7 +65,7 @@ class __TwigTemplate_392529e86c44929d89c04e4e030f9b9f extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Hello JbarbierController!";
+        echo "Programmer";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
 
@@ -74,7 +74,7 @@ class __TwigTemplate_392529e86c44929d89c04e4e030f9b9f extends Template
 
     }
 
-    // line 5
+    // line 3
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -84,8 +84,8 @@ class __TwigTemplate_392529e86c44929d89c04e4e030f9b9f extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 6
-        echo "<link rel=\"stylesheet\" href=\"/css/portfolio2.css\">
+        // line 4
+        echo "    <link rel=\"stylesheet\" href=\"/css/portfolio2.css\">
     <div class=\"container\">
         <div class=\"row\">
             <h1>Créer des outils et applications informatiques pour les R&T </h1>
@@ -201,17 +201,15 @@ class __TwigTemplate_392529e86c44929d89c04e4e030f9b9f extends Template
      */
     public function getDebugInfo()
     {
-        return array (  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  88 => 4,  78 => 3,  59 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
-
-{% block title %}Hello JbarbierController!{% endblock %}
-
+{% block title %}Programmer{% endblock %}
 {% block body %}
-<link rel=\"stylesheet\" href=\"/css/portfolio2.css\">
+    <link rel=\"stylesheet\" href=\"/css/portfolio2.css\">
     <div class=\"container\">
         <div class=\"row\">
             <h1>Créer des outils et applications informatiques pour les R&T </h1>

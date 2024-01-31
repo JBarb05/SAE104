@@ -88,45 +88,44 @@ class __TwigTemplate_d622e59e07b2944a197d030fd1c8b122 extends Template
         echo "
 <link rel=\"stylesheet\" href=\"/css/portfolio.css\">
 
-
-  <div class=\"container mt-4\">
-    <div class=\"row text-center\">
-      <h3>Mon Portfolio de Compétences</h3>
-    </div>
-    <div class=\"row align-middle\">
-      <div class=\"btn-group\" role=\"group\">
-        <a href=\"/portfolio/connecter\" class=\"btn btn-secondary btn-dark\">Connecter</a>
-        <a href=\"/portfolio/administrer\" class=\"btn btn-secondary btn-dark\">Administrer</a>
-        <a href=\"/portfolio/programmer\" class=\"btn btn-secondary btn-dark\">Programmer</a>
-      </div>
+<div class=\"container mt-4\">
+  <div class=\"row text-center\">
+    <h3>Mon Portfolio de Compétences</h3>
+  </div>
+  <div class=\"row align-middle\">
+    <div class=\"btn-group\" role=\"group\">
+      <a href=\"/portfolioconnecter\" class=\"btn btn-secondary btn-dark\">Connecter</a>
+      <a href=\"/portfolioadministrer\" class=\"btn btn-secondary btn-dark\">Administrer</a>
+      <a href=\"/portfolioprogrammer\" class=\"btn btn-secondary btn-dark\">Programmer</a>
     </div>
   </div>
+</div>
 <br>
 
 <div class=\"container mt-4\">
-    <div class=\"row\">
-        <h3>Connecter</h3>
-            <div class=\"progress-outer\">
-                <div class=\"progress\">
-                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:65%;\"></div>
-                    <div class=\"progress-value\">65%</div>
-                </div>
-            </div>
-            <h3>Administrer</h3>
-            <div class=\"progress-outer\">
-                <div class=\"progress\">
-                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:70%;\"></div>
-                    <div class=\"progress-value\">70%</div>
-                </div>
-            </div>
-            <h3>Programmer</h3>
-            <div class=\"progress-outer\">
-                <div class=\"progress\">
-                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:48%;\"></div>
-                    <div class=\"progress-value\">48%</div>
-                </div>
-            </div>
+  <div class=\"row\">
+    <h3>Connecter</h3>
+    <div class=\"progress-outer\">
+      <div class=\"progress\">
+        <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:65%;\"></div>
+        <div class=\"progress-value\">65%</div>
+      </div>
     </div>
+    <h3>Administrer</h3>
+    <div class=\"progress-outer\">
+      <div class=\"progress\">
+        <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:70%;\"></div>
+        <div class=\"progress-value\">70%</div>
+      </div>
+    </div>
+    <h3>Programmer</h3>
+    <div class=\"progress-outer\">
+      <div class=\"progress\">
+        <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:48%;\"></div>
+        <div class=\"progress-value\">48%</div>
+      </div>
+    </div>
+  </div>
 </div>
 <br>
 <br>
@@ -179,45 +178,44 @@ class __TwigTemplate_d622e59e07b2944a197d030fd1c8b122 extends Template
 
 <link rel=\"stylesheet\" href=\"/css/portfolio.css\">
 
-
-  <div class=\"container mt-4\">
-    <div class=\"row text-center\">
-      <h3>Mon Portfolio de Compétences</h3>
-    </div>
-    <div class=\"row align-middle\">
-      <div class=\"btn-group\" role=\"group\">
-        <a href=\"/portfolio/connecter\" class=\"btn btn-secondary btn-dark\">Connecter</a>
-        <a href=\"/portfolio/administrer\" class=\"btn btn-secondary btn-dark\">Administrer</a>
-        <a href=\"/portfolio/programmer\" class=\"btn btn-secondary btn-dark\">Programmer</a>
-      </div>
+<div class=\"container mt-4\">
+  <div class=\"row text-center\">
+    <h3>Mon Portfolio de Compétences</h3>
+  </div>
+  <div class=\"row align-middle\">
+    <div class=\"btn-group\" role=\"group\">
+      <a href=\"/portfolioconnecter\" class=\"btn btn-secondary btn-dark\">Connecter</a>
+      <a href=\"/portfolioadministrer\" class=\"btn btn-secondary btn-dark\">Administrer</a>
+      <a href=\"/portfolioprogrammer\" class=\"btn btn-secondary btn-dark\">Programmer</a>
     </div>
   </div>
+</div>
 <br>
 
 <div class=\"container mt-4\">
-    <div class=\"row\">
-        <h3>Connecter</h3>
-            <div class=\"progress-outer\">
-                <div class=\"progress\">
-                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:65%;\"></div>
-                    <div class=\"progress-value\">65%</div>
-                </div>
-            </div>
-            <h3>Administrer</h3>
-            <div class=\"progress-outer\">
-                <div class=\"progress\">
-                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:70%;\"></div>
-                    <div class=\"progress-value\">70%</div>
-                </div>
-            </div>
-            <h3>Programmer</h3>
-            <div class=\"progress-outer\">
-                <div class=\"progress\">
-                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:48%;\"></div>
-                    <div class=\"progress-value\">48%</div>
-                </div>
-            </div>
+  <div class=\"row\">
+    <h3>Connecter</h3>
+    <div class=\"progress-outer\">
+      <div class=\"progress\">
+        <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:65%;\"></div>
+        <div class=\"progress-value\">65%</div>
+      </div>
     </div>
+    <h3>Administrer</h3>
+    <div class=\"progress-outer\">
+      <div class=\"progress\">
+        <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:70%;\"></div>
+        <div class=\"progress-value\">70%</div>
+      </div>
+    </div>
+    <h3>Programmer</h3>
+    <div class=\"progress-outer\">
+      <div class=\"progress\">
+        <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:48%;\"></div>
+        <div class=\"progress-value\">48%</div>
+      </div>
+    </div>
+  </div>
 </div>
 <br>
 <br>

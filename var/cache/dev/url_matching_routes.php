@@ -18,9 +18,9 @@ return [
         '/about' => [[['_route' => 'about', '_controller' => 'App\\Controller\\JbarbierController::about'], null, null, null, false, false, null]],
         '/cv' => [[['_route' => 'cv', '_controller' => 'App\\Controller\\JbarbierController::resume'], null, null, null, false, false, null]],
         '/portfolio' => [[['_route' => 'portfolio', '_controller' => 'App\\Controller\\JbarbierController::portfolio'], null, null, null, false, false, null]],
-        '/portfolio/connecter' => [[['_route' => 'portfolioconnecter', '_controller' => 'App\\Controller\\JbarbierController::portfolioconnecter'], null, null, null, false, false, null]],
-        '/portfolio/programmer' => [[['_route' => 'portfolioprogrammer', '_controller' => 'App\\Controller\\JbarbierController::portfolioprogrammer'], null, null, null, false, false, null]],
-        '/portfolio/administrer' => [[['_route' => 'portfolioadministrer', '_controller' => 'App\\Controller\\JbarbierController::portfolioadministrer'], null, null, null, false, false, null]],
+        '/portfolioconnecter' => [[['_route' => 'portfolioconnecter', '_controller' => 'App\\Controller\\JbarbierController::portfolioconnecter'], null, null, null, false, false, null]],
+        '/portfolioprogrammer' => [[['_route' => 'portfolioprogrammer', '_controller' => 'App\\Controller\\JbarbierController::portfolioprogrammer'], null, null, null, false, false, null]],
+        '/portfolioadministrer' => [[['_route' => 'portfolioadministrer', '_controller' => 'App\\Controller\\JbarbierController::portfolioadministrer'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

@@ -65,7 +65,7 @@ class __TwigTemplate_26eabb458c413c00a120610b41a7d527 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Hello JbarbierController!";
+        echo "Mon CV";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
 
@@ -184,43 +184,43 @@ class __TwigTemplate_26eabb458c413c00a120610b41a7d527 extends Template
     </div>
   </div>
 
-<div class=\"container mt-4\">
-  <form>
-    <div class=\"form-group\">
-      <label class=\"form-label mt-4\"><strong>Téléchargement du CV</strong></label>
+  <div class=\"container mt-4\">
+    <form>
       <div class=\"form-group\">
-        <div class=\"input-group mb-3\">
-          <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail\" aria-describedby=\"emailHelp\" placeholder=\"Votre Mail\">
-        </div>
-        <div class=\"input-group mb-3\">
-          <input type=\"text\" class=\"form-control\" placeholder=\"Votre Nom\" id=\"VotreNom\" aria-describedby=\"button-addon2\">
-          <button class=\"btn btn-primary\" type=\"button\" id=\"button-addon2\" onclick=\"checkForm()\">Télécharger</button>
+        <label class=\"form-label mt-4\"><strong>Téléchargement du CV</strong></label>
+        <div class=\"form-group\">
+          <div class=\"input-group mb-3\">
+            <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail\" aria-describedby=\"emailHelp\" placeholder=\"Votre Mail\">
+          </div>
+          <div class=\"input-group mb-3\">
+            <input type=\"text\" class=\"form-control\" placeholder=\"Votre Nom\" id=\"VotreNom\" aria-describedby=\"button-addon2\">
+            <button class=\"btn btn-primary\" type=\"button\" id=\"button-addon2\" onclick=\"checkForm()\">Télécharger</button>
+          </div>
         </div>
       </div>
-    </div>
-  </form>
-</div>
+    </form>
+  </div>
 
-<script>
-  function checkForm() {
-    const email = document.getElementById('exampleInputEmail').value;
-    const name = document.getElementById('VotreNom').value;
+  <script>
+    function checkForm() {
+      const email = document.getElementById('exampleInputEmail').value;
+      const name = document.getElementById('VotreNom').value;
 
-    if (email.length > 0 && name.length > 0) {
-      // Check if it is a valid email address
-      const emailRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+\$/;
-      if (emailRegex.test(email)) {
-        // Download the PDF
-        const downloadLink = document.createElement('a');
-        downloadLink.href = '/documents/CV Barbier Julien.pdf';
-        downloadLink.setAttribute('download', 'CV Barbier Julien.pdf');
-        downloadLink.click();
-      } else {
-        alert('Veuillez entrer une adresse email valide.');
+      if (email.length > 0 && name.length > 0) {
+        // Check if it is a valid email address
+        const emailRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+\$/;
+        if (emailRegex.test(email)) {
+          // Download the PDF
+          const downloadLink = document.createElement('a');
+          downloadLink.href = '/documents/CV Barbier Julien.pdf';
+          downloadLink.setAttribute('download', 'CV Barbier Julien.pdf');
+          downloadLink.click();
+        } else {
+          alert('Veuillez entrer une adresse email valide.');
+        }
       }
     }
-  }
-</script>
+  </script>
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -257,7 +257,7 @@ class __TwigTemplate_26eabb458c413c00a120610b41a7d527 extends Template
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
-{% block title %}Hello JbarbierController!{% endblock %}
+{% block title %}Mon CV{% endblock %}
 {% block body %}
 
 <body>
@@ -358,43 +358,43 @@ class __TwigTemplate_26eabb458c413c00a120610b41a7d527 extends Template
     </div>
   </div>
 
-<div class=\"container mt-4\">
-  <form>
-    <div class=\"form-group\">
-      <label class=\"form-label mt-4\"><strong>Téléchargement du CV</strong></label>
+  <div class=\"container mt-4\">
+    <form>
       <div class=\"form-group\">
-        <div class=\"input-group mb-3\">
-          <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail\" aria-describedby=\"emailHelp\" placeholder=\"Votre Mail\">
-        </div>
-        <div class=\"input-group mb-3\">
-          <input type=\"text\" class=\"form-control\" placeholder=\"Votre Nom\" id=\"VotreNom\" aria-describedby=\"button-addon2\">
-          <button class=\"btn btn-primary\" type=\"button\" id=\"button-addon2\" onclick=\"checkForm()\">Télécharger</button>
+        <label class=\"form-label mt-4\"><strong>Téléchargement du CV</strong></label>
+        <div class=\"form-group\">
+          <div class=\"input-group mb-3\">
+            <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail\" aria-describedby=\"emailHelp\" placeholder=\"Votre Mail\">
+          </div>
+          <div class=\"input-group mb-3\">
+            <input type=\"text\" class=\"form-control\" placeholder=\"Votre Nom\" id=\"VotreNom\" aria-describedby=\"button-addon2\">
+            <button class=\"btn btn-primary\" type=\"button\" id=\"button-addon2\" onclick=\"checkForm()\">Télécharger</button>
+          </div>
         </div>
       </div>
-    </div>
-  </form>
-</div>
+    </form>
+  </div>
 
-<script>
-  function checkForm() {
-    const email = document.getElementById('exampleInputEmail').value;
-    const name = document.getElementById('VotreNom').value;
+  <script>
+    function checkForm() {
+      const email = document.getElementById('exampleInputEmail').value;
+      const name = document.getElementById('VotreNom').value;
 
-    if (email.length > 0 && name.length > 0) {
-      // Check if it is a valid email address
-      const emailRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+\$/;
-      if (emailRegex.test(email)) {
-        // Download the PDF
-        const downloadLink = document.createElement('a');
-        downloadLink.href = '/documents/CV Barbier Julien.pdf';
-        downloadLink.setAttribute('download', 'CV Barbier Julien.pdf');
-        downloadLink.click();
-      } else {
-        alert('Veuillez entrer une adresse email valide.');
+      if (email.length > 0 && name.length > 0) {
+        // Check if it is a valid email address
+        const emailRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+\$/;
+        if (emailRegex.test(email)) {
+          // Download the PDF
+          const downloadLink = document.createElement('a');
+          downloadLink.href = '/documents/CV Barbier Julien.pdf';
+          downloadLink.setAttribute('download', 'CV Barbier Julien.pdf');
+          downloadLink.click();
+        } else {
+          alert('Veuillez entrer une adresse email valide.');
+        }
       }
     }
-  }
-</script>
+  </script>
 {% endblock %}", "jbarbier/resume.html.twig", "C:\\Users\\jujue\\Documents\\UNIV\\SAE104\\templates\\jbarbier\\resume.html.twig");
     }
 }
