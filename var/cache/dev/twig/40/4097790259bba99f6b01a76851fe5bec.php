@@ -51,7 +51,7 @@ class __TwigTemplate_01eb40a8dcb49e3e040fea28489d1c02 extends Template
         // line 5
         $this->displayBlock('title', $context, $blocks);
         echo "</title>
-    <link rel=\"stylesheet\" href=\"https://bootswatch.com/5/morph/bootstrap.min.css\">
+    <link rel=\"stylesheet\" href=\"https://bootswatch.com/5/morph/bootstrap.min.css\" id=\"bootstrap-css\">
   </head>
 
   <body>
@@ -69,10 +69,10 @@ class __TwigTemplate_01eb40a8dcb49e3e040fea28489d1c02 extends Template
               </a>
             </li> 
             <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"/cv\">CV</a>
+              <a class=\"nav-link\" href=\"/portfolio\">Portfolio</a>
             </li>
             <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"/portfolio\">Portfolio</a>
+              <a class=\"nav-link\" href=\"/cv\">CV</a>
             </li>
           </ul>
         </div>
@@ -80,10 +80,14 @@ class __TwigTemplate_01eb40a8dcb49e3e040fea28489d1c02 extends Template
     </nav>
 
     <div class=\"bg-img \" style=\"background-image: url('images/iut.png'); background-size: 300px; background-position: center; background-repeat: no-repeat;\">
-    
-    <div class=\"fixed-bottom\">
-      <p xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dct=\"http://purl.org/dc/terms/\">
-        <span property=\"dct:title\">website</span> by <span property=\"cc:attributionName\">Julien Barbier</span> is licensed under 
+    ";
+        // line 35
+        $this->displayBlock('body', $context, $blocks);
+        // line 36
+        echo "
+    <footer>
+        <p xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dct=\"http://purl.org/dc/terms/\">
+        <span property=\"dct:title\">This Website</span> by <span property=\"cc:attributionName\">Julien Barbier</span> is licensed under 
         <a href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1\" target=\"_blank\" rel=\"license noopener noreferrer\" style=\"display:inline-block;\">
           CC BY-NC-ND 4.0
           <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1\">
@@ -92,13 +96,10 @@ class __TwigTemplate_01eb40a8dcb49e3e040fea28489d1c02 extends Template
           <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1\">
         </a>
       </p>
-    </div>
-  
+    </footer>
+
     ";
-        // line 49
-        $this->displayBlock('body', $context, $blocks);
         // line 50
-        echo "    ";
         $this->displayBlock('javascripts', $context, $blocks);
         // line 51
         echo "  </body>
@@ -131,7 +132,7 @@ class __TwigTemplate_01eb40a8dcb49e3e040fea28489d1c02 extends Template
 
     }
 
-    // line 49
+    // line 35
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -180,7 +181,7 @@ class __TwigTemplate_01eb40a8dcb49e3e040fea28489d1c02 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  153 => 50,  135 => 49,  116 => 5,  104 => 51,  101 => 50,  99 => 49,  52 => 5,  46 => 1,);
+        return array (  154 => 50,  136 => 35,  117 => 5,  105 => 51,  103 => 50,  87 => 36,  85 => 35,  52 => 5,  46 => 1,);
     }
 
     public function getSourceContext()
@@ -190,7 +191,7 @@ class __TwigTemplate_01eb40a8dcb49e3e040fea28489d1c02 extends Template
   <head>
     <meta charset=\"UTF-8\">
     <title>{% block title %}base{% endblock %}</title>
-    <link rel=\"stylesheet\" href=\"https://bootswatch.com/5/morph/bootstrap.min.css\">
+    <link rel=\"stylesheet\" href=\"https://bootswatch.com/5/morph/bootstrap.min.css\" id=\"bootstrap-css\">
   </head>
 
   <body>
@@ -208,10 +209,10 @@ class __TwigTemplate_01eb40a8dcb49e3e040fea28489d1c02 extends Template
               </a>
             </li> 
             <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"/cv\">CV</a>
+              <a class=\"nav-link\" href=\"/portfolio\">Portfolio</a>
             </li>
             <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"/portfolio\">Portfolio</a>
+              <a class=\"nav-link\" href=\"/cv\">CV</a>
             </li>
           </ul>
         </div>
@@ -219,10 +220,11 @@ class __TwigTemplate_01eb40a8dcb49e3e040fea28489d1c02 extends Template
     </nav>
 
     <div class=\"bg-img \" style=\"background-image: url('images/iut.png'); background-size: 300px; background-position: center; background-repeat: no-repeat;\">
-    
-    <div class=\"fixed-bottom\">
-      <p xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dct=\"http://purl.org/dc/terms/\">
-        <span property=\"dct:title\">website</span> by <span property=\"cc:attributionName\">Julien Barbier</span> is licensed under 
+    {% block body %}{% endblock %}
+
+    <footer>
+        <p xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dct=\"http://purl.org/dc/terms/\">
+        <span property=\"dct:title\">This Website</span> by <span property=\"cc:attributionName\">Julien Barbier</span> is licensed under 
         <a href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1\" target=\"_blank\" rel=\"license noopener noreferrer\" style=\"display:inline-block;\">
           CC BY-NC-ND 4.0
           <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1\">
@@ -231,9 +233,8 @@ class __TwigTemplate_01eb40a8dcb49e3e040fea28489d1c02 extends Template
           <img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1\">
         </a>
       </p>
-    </div>
-  
-    {% block body %}{% endblock %}
+    </footer>
+
     {% block javascripts %}{% endblock %}
   </body>
 </html>

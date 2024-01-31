@@ -122,6 +122,9 @@ class __TwigTemplate_79fbf57317b53f16941b5ac11da9b417 extends Template
         <a href=\"/about\" class=\"btn btn-lg btn-dark btn-primary\" role=\"button\" aria-pressed=\"true\">Pour en savoir plus...</a>
       </div>
     </div>
+</div>
+<br>
+
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -199,8 +202,11 @@ class __TwigTemplate_79fbf57317b53f16941b5ac11da9b417 extends Template
         <a href=\"/about\" class=\"btn btn-lg btn-dark btn-primary\" role=\"button\" aria-pressed=\"true\">Pour en savoir plus...</a>
       </div>
     </div>
+</div>
+<br>
+
 {% endblock %}
 
-", "jbarbier/index.html.twig", "C:\\Users\\jujue\\Desktop\\SAE104-master\\templates\\jbarbier\\index.html.twig");
+", "jbarbier/index.html.twig", "C:\\Users\\jujue\\Documents\\UNIV\\SAE104\\templates\\jbarbier\\index.html.twig");
     }
 }

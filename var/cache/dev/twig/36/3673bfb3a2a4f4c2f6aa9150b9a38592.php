@@ -95,11 +95,11 @@ class __TwigTemplate_ba3032da079a1c95479b47bcb8d39acd extends Template
             <br>Cela fait depuis un certain temps que je pratique le VTT. Pratique découverte par le biais de mon père, j'ai tout de suite accroché, découvrir des paysages en étant proche de la nature, tout en pratiquant un effort physique et appliquant de la technique est ce qu'il m'a plus dans la pratique.
             <br>
             <br> D'abord inscris en club de VTT XC en loisir en 2018, j'ai pu m'ameliorer grandement dans la connaissance technique que physique sur mon ancien vélo, un VTT datant des années 2008 trop petit pour moi.
-            <br> 
+            <br>
             <br> Puis pendant l'été 2021 j'ai passé des vacances dans le queyras avec ma famille ou ma passion du vélo m'a suivie.
             <br> Ces vacances m'on fait louer un plus gros vélo (electrique) qui etant a ma taille est plus confortable et adapté à une pratique plus engagée.
             <br>
-            <br> 
+            <br>
           </p>
         </div>
       </div>
@@ -159,14 +159,6 @@ class __TwigTemplate_ba3032da079a1c95479b47bcb8d39acd extends Template
     </div>
   </div>
 
-  <div class=\"container mt-4\">
-    <div class=\"row\">
-      <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
-        <div class=\"card-body\">
-          <br>
-          <p class=\"card-text\">
-          <br>
-            <br> 
 
 ";
         
@@ -218,11 +210,11 @@ class __TwigTemplate_ba3032da079a1c95479b47bcb8d39acd extends Template
             <br>Cela fait depuis un certain temps que je pratique le VTT. Pratique découverte par le biais de mon père, j'ai tout de suite accroché, découvrir des paysages en étant proche de la nature, tout en pratiquant un effort physique et appliquant de la technique est ce qu'il m'a plus dans la pratique.
             <br>
             <br> D'abord inscris en club de VTT XC en loisir en 2018, j'ai pu m'ameliorer grandement dans la connaissance technique que physique sur mon ancien vélo, un VTT datant des années 2008 trop petit pour moi.
-            <br> 
+            <br>
             <br> Puis pendant l'été 2021 j'ai passé des vacances dans le queyras avec ma famille ou ma passion du vélo m'a suivie.
             <br> Ces vacances m'on fait louer un plus gros vélo (electrique) qui etant a ma taille est plus confortable et adapté à une pratique plus engagée.
             <br>
-            <br> 
+            <br>
           </p>
         </div>
       </div>
@@ -282,14 +274,6 @@ class __TwigTemplate_ba3032da079a1c95479b47bcb8d39acd extends Template
     </div>
   </div>
 
-  <div class=\"container mt-4\">
-    <div class=\"row\">
-      <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
-        <div class=\"card-body\">
-          <br>
-          <p class=\"card-text\">
-          <br>
-            <br> 
 
 {% endblock %}
 ", "jbarbier/about.html.twig", "C:\\Users\\jujue\\Documents\\UNIV\\SAE104\\templates\\jbarbier\\about.html.twig");

@@ -85,8 +85,37 @@ class __TwigTemplate_1c2b8bc1d5262398e2150a7a53513288 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "    <h1>Hello JbarbierController!</h1>
+        echo "    <link rel=\"stylesheet\" href=\"/css/portfolio2.css\">
 
+    <div class=\"container\">
+        <div class=\"row\">
+            <h1>Compétence connecter</h1>
+            <div class=\"row\">
+                
+                <div class=\"progress-outer\">
+                <p>Mesurer et analyser les signaux</p>
+                    <div class=\"progress\">
+                        <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:65%;\"></div>
+                        <div class=\"progress-value\">65%</div>
+                    </div>
+                </div>
+                <p>Administrer</p>
+                <div class=\"progress-outer\">
+                    <div class=\"progress\">
+                        <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:70%;\"></div>
+                        <div class=\"progress-value\">70%</div>
+                    </div>
+                </div>
+                <p>Programmer</p>
+                <div class=\"progress-outer\">
+                    <div class=\"progress\">
+                        <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:48%;\"></div>
+                        <div class=\"progress-value\">48%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -127,8 +156,37 @@ class __TwigTemplate_1c2b8bc1d5262398e2150a7a53513288 extends Template
 {% block title %}Hello JbarbierController!{% endblock %}
 
 {% block body %}
-    <h1>Hello JbarbierController!</h1>
+    <link rel=\"stylesheet\" href=\"/css/portfolio2.css\">
 
+    <div class=\"container\">
+        <div class=\"row\">
+            <h1>Compétence connecter</h1>
+            <div class=\"row\">
+                
+                <div class=\"progress-outer\">
+                <p>Mesurer et analyser les signaux</p>
+                    <div class=\"progress\">
+                        <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:65%;\"></div>
+                        <div class=\"progress-value\">65%</div>
+                    </div>
+                </div>
+                <p>Administrer</p>
+                <div class=\"progress-outer\">
+                    <div class=\"progress\">
+                        <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:70%;\"></div>
+                        <div class=\"progress-value\">70%</div>
+                    </div>
+                </div>
+                <p>Programmer</p>
+                <div class=\"progress-outer\">
+                    <div class=\"progress\">
+                        <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:48%;\"></div>
+                        <div class=\"progress-value\">48%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}", "jbarbier/portfolioconnecter.html.twig", "C:\\Users\\jujue\\Documents\\UNIV\\SAE104\\templates\\jbarbier\\portfolioconnecter.html.twig");
     }
 }

@@ -85,7 +85,32 @@ class __TwigTemplate_392529e86c44929d89c04e4e030f9b9f extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "    <h1>Hello JbarbierController!</h1>
+        echo "    
+<div class=\"container\">
+<div class=\"row\">
+    <h1>Compétences Programmer</h1>
+        <div class=\"col-md-6\">
+            <div class=\"progress-outer\">
+                <div class=\"progress\">
+                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:80%; box-shadow:-1px 10px 10px rgba(91, 192, 222, 0.7);\"></div>
+                    <div class=\"progress-value\">80%</div>
+                </div>
+            </div>
+            <div class=\"progress-outer\">
+                <div class=\"progress\">
+                    <div class=\"progress-bar progress-bar-success progress-bar-striped active\" style=\"width:60%; box-shadow:-1px 10px 10px rgba(116, 195, 116,0.7);\"></div>
+                    <div class=\"progress-value\">60%</div>
+                </div>
+            </div>
+            <div class=\"progress-outer\">
+                <div class=\"progress\">
+                    <div class=\"progress-bar progress-bar-warning progress-bar-striped active\" style=\"width:40%; box-shadow:-1px 10px 10px rgba(240, 173, 78,0.7);\"></div>
+                    <div class=\"progress-value\">40%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 ";
         
@@ -127,7 +152,32 @@ class __TwigTemplate_392529e86c44929d89c04e4e030f9b9f extends Template
 {% block title %}Hello JbarbierController!{% endblock %}
 
 {% block body %}
-    <h1>Hello JbarbierController!</h1>
+    
+<div class=\"container\">
+<div class=\"row\">
+    <h1>Compétences Programmer</h1>
+        <div class=\"col-md-6\">
+            <div class=\"progress-outer\">
+                <div class=\"progress\">
+                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:80%; box-shadow:-1px 10px 10px rgba(91, 192, 222, 0.7);\"></div>
+                    <div class=\"progress-value\">80%</div>
+                </div>
+            </div>
+            <div class=\"progress-outer\">
+                <div class=\"progress\">
+                    <div class=\"progress-bar progress-bar-success progress-bar-striped active\" style=\"width:60%; box-shadow:-1px 10px 10px rgba(116, 195, 116,0.7);\"></div>
+                    <div class=\"progress-value\">60%</div>
+                </div>
+            </div>
+            <div class=\"progress-outer\">
+                <div class=\"progress\">
+                    <div class=\"progress-bar progress-bar-warning progress-bar-striped active\" style=\"width:40%; box-shadow:-1px 10px 10px rgba(240, 173, 78,0.7);\"></div>
+                    <div class=\"progress-value\">40%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 {% endblock %}", "jbarbier/portfolioprogrammer.html.twig", "C:\\Users\\jujue\\Documents\\UNIV\\SAE104\\templates\\jbarbier\\portfolioprogrammer.html.twig");
     }

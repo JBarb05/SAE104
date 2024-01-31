@@ -1,0 +1,35 @@
+.progress-outer{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 50px;
+    background: #d9e3f1;
+    box-shadow:  9px 9px 14px #ccd5e3,
+             -9px -9px 14px #e6f1ff;
+}
+.progress{
+    height: 27px;
+    margin: 0;
+    overflow: visible;
+    border-radius: 50px;
+}
+.progress .progress-bar{
+    border-radius: 50px;
+}
+.progress .progress-value{
+    position: relative;
+    left: -45px;
+    top: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #d9e3f1;
+    letter-spacing: 2px;
+}
+.progress-bar.active{
+    animation: reverse progress-bar-stripes 0.40s linear infinite, animate-positive 2s;
+}
+@-webkit-keyframes animate-positive{
+    0% { width: 0%; }
+}
+@keyframes animate-positive {
+    0% { width: 0%; }
+}
