@@ -85,31 +85,92 @@ class __TwigTemplate_e1f3fde6266d07aa682ae8248963289d extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "<div class=\"container\">
-<div class=\"row\">
-<h1>Compétence Administrer</h1>
-        <div class=\"col-md-6\">
-            <div class=\"progress-outer\">
-                <div class=\"progress\">
-                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:80%; box-shadow:-1px 10px 10px rgba(91, 192, 222, 0.7);\"></div>
-                    <div class=\"progress-value\">80%</div>
+        echo "<link rel=\"stylesheet\" href=\"/css/portfolio2.css\">
+    <div class=\"container\">
+        <div class=\"row\">
+            <h1>Administrer les réseaux et l’Internet</h1>
+            <div class=\"row\">
+                <div class=\"progress-outer\">
+                    <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
+                        <div class=\"card-body\">
+                            <p class=\"card-text\">Maîtriser les lois fondamentales de l’électricité afin d’intervenir sur des équipements de réseaux et télécommunications (habilitation électrique)</p>
+                            <p class=\"card-content\">
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:95%;\"></div>
+                                    <div class=\"progress-value\">95%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class=\"progress-outer\">
-                <div class=\"progress\">
-                    <div class=\"progress-bar progress-bar-success progress-bar-striped active\" style=\"width:60%; box-shadow:-1px 10px 10px rgba(116, 195, 116,0.7);\"></div>
-                    <div class=\"progress-value\">60%</div>
+                <div class=\"progress-outer\">
+                    <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
+                        <div class=\"card-body\">
+                            <p class=\"card-text\">Comprendre les principes et standards du codage de l’information</p>
+                            <p class=\"card-content\">
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:78%;\"></div>
+                                    <div class=\"progress-value\">78%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class=\"progress-outer\">
-                <div class=\"progress\">
-                    <div class=\"progress-bar progress-bar-warning progress-bar-striped active\" style=\"width:40%; box-shadow:-1px 10px 10px rgba(240, 173, 78,0.7);\"></div>
-                    <div class=\"progress-value\">40%</div>
+                <div class=\"progress-outer\">
+                    <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
+                        <div class=\"card-body\">
+                            <p class=\"card-text\">Configurer les fonctions de base du réseau local (Ethernet, IPv4, intro IPv6, commutation, VLANs, routage statique)</p>
+                            <p class=\"card-content\">
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:90%;\"></div>
+                                    <div class=\"progress-value\">90%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"progress-outer\">
+                    <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
+                        <div class=\"card-body\">
+                            <p class=\"card-text\">Maîtriser les rôles et les principes fondamentaux des systèmes d’exploitation afin d’interagir avec ceux-ci pour la configuration et administration des réseaux et services fournis (DHCP, DNS, ...)</p>
+                            <p class=\"card-content\">
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:80%;\"></div>
+                                    <div class=\"progress-value\">80%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"progress-outer\">
+                    <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
+                        <div class=\"card-body\">
+                            <p class=\"card-text\">Savoir identifier les dysfonctionnements du réseau local</p>
+                            <p class=\"card-content\">
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:95%;\"></div>
+                                    <div class=\"progress-value\">95%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"progress-outer\">
+                    <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
+                        <div class=\"card-body\">
+                            <p class=\"card-text\">Installer un poste client (et le sécuriser: antivirus, parefeu, comptes, ...)</p>
+                            <p class=\"card-content\">
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:85%;\"></div>
+                                    <div class=\"progress-value\">85%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -150,31 +211,92 @@ class __TwigTemplate_e1f3fde6266d07aa682ae8248963289d extends Template
 {% block title %}Hello JbarbierController!{% endblock %}
 
 {% block body %}
-<div class=\"container\">
-<div class=\"row\">
-<h1>Compétence Administrer</h1>
-        <div class=\"col-md-6\">
-            <div class=\"progress-outer\">
-                <div class=\"progress\">
-                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:80%; box-shadow:-1px 10px 10px rgba(91, 192, 222, 0.7);\"></div>
-                    <div class=\"progress-value\">80%</div>
+<link rel=\"stylesheet\" href=\"/css/portfolio2.css\">
+    <div class=\"container\">
+        <div class=\"row\">
+            <h1>Administrer les réseaux et l’Internet</h1>
+            <div class=\"row\">
+                <div class=\"progress-outer\">
+                    <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
+                        <div class=\"card-body\">
+                            <p class=\"card-text\">Maîtriser les lois fondamentales de l’électricité afin d’intervenir sur des équipements de réseaux et télécommunications (habilitation électrique)</p>
+                            <p class=\"card-content\">
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:95%;\"></div>
+                                    <div class=\"progress-value\">95%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class=\"progress-outer\">
-                <div class=\"progress\">
-                    <div class=\"progress-bar progress-bar-success progress-bar-striped active\" style=\"width:60%; box-shadow:-1px 10px 10px rgba(116, 195, 116,0.7);\"></div>
-                    <div class=\"progress-value\">60%</div>
+                <div class=\"progress-outer\">
+                    <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
+                        <div class=\"card-body\">
+                            <p class=\"card-text\">Comprendre les principes et standards du codage de l’information</p>
+                            <p class=\"card-content\">
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:78%;\"></div>
+                                    <div class=\"progress-value\">78%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class=\"progress-outer\">
-                <div class=\"progress\">
-                    <div class=\"progress-bar progress-bar-warning progress-bar-striped active\" style=\"width:40%; box-shadow:-1px 10px 10px rgba(240, 173, 78,0.7);\"></div>
-                    <div class=\"progress-value\">40%</div>
+                <div class=\"progress-outer\">
+                    <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
+                        <div class=\"card-body\">
+                            <p class=\"card-text\">Configurer les fonctions de base du réseau local (Ethernet, IPv4, intro IPv6, commutation, VLANs, routage statique)</p>
+                            <p class=\"card-content\">
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:90%;\"></div>
+                                    <div class=\"progress-value\">90%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"progress-outer\">
+                    <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
+                        <div class=\"card-body\">
+                            <p class=\"card-text\">Maîtriser les rôles et les principes fondamentaux des systèmes d’exploitation afin d’interagir avec ceux-ci pour la configuration et administration des réseaux et services fournis (DHCP, DNS, ...)</p>
+                            <p class=\"card-content\">
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:80%;\"></div>
+                                    <div class=\"progress-value\">80%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"progress-outer\">
+                    <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
+                        <div class=\"card-body\">
+                            <p class=\"card-text\">Savoir identifier les dysfonctionnements du réseau local</p>
+                            <p class=\"card-content\">
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:95%;\"></div>
+                                    <div class=\"progress-value\">95%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"progress-outer\">
+                    <div class=\"card-transparent border-primary mx-auto\" style=\"max-width: 60rem;\">
+                        <div class=\"card-body\">
+                            <p class=\"card-text\">Installer un poste client (et le sécuriser: antivirus, parefeu, comptes, ...)</p>
+                            <p class=\"card-content\">
+                                <div class=\"progress\">
+                                    <div class=\"progress-bar progress-bar-info progress-bar-striped active\" style=\"width:85%;\"></div>
+                                    <div class=\"progress-value\">85%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 {% endblock %}", "jbarbier/portfolioadministrer.html.twig", "C:\\Users\\jujue\\Documents\\UNIV\\SAE104\\templates\\jbarbier\\portfolioadministrer.html.twig");
     }
 }
