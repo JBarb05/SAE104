@@ -1472,3 +1472,13 @@ f076cd,127.0.0.1,GET,https://127.0.0.1:8000/portfolioconnecter,1706740929,,200,r
 2e3297,127.0.0.1,GET,https://127.0.0.1:8000/portfolioadministrer,1706740938,,200,request
 6e4645,127.0.0.1,GET,https://127.0.0.1:8000/portfolioconnecter,1706740940,,200,request
 2ed386,127.0.0.1,GET,https://127.0.0.1:8000/cv,1706740942,,200,request
+46971d,127.0.0.1,GET,https://127.0.0.1:8000/,1706770996,,200,request
+b64a64,127.0.0.1,GET,https://127.0.0.1:8000/cv,1706771002,,200,request
+22b249,127.0.0.1,GET,https://127.0.0.1:8000/,1706771107,,200,request
+72bc09,127.0.0.1,GET,https://127.0.0.1:8000/about,1706771115,,200,request
+e4010f,127.0.0.1,GET,https://127.0.0.1:8000/portfolio,1706771119,,200,request
+13b3ac,127.0.0.1,GET,https://127.0.0.1:8000/portfolioconnecter,1706771123,,200,request
+544647,127.0.0.1,GET,https://127.0.0.1:8000/portfolioadministrer,1706771141,,200,request
+b9c7e1,127.0.0.1,GET,https://127.0.0.1:8000/portfolioprogrammer,1706771146,,200,request
+0253ff,127.0.0.1,GET,https://127.0.0.1:8000/portfolio,1706771173,,200,request
+20156f,127.0.0.1,GET,https://127.0.0.1:8000/,1706771672,,200,request
